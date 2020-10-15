@@ -1,0 +1,68 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ced6a004-bb40-4e33-ad75-e514f8ce7f7c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>ifsatsÖvning12.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>IfsatsÖvning</Name>
+    <RootNamespace>IfsatsÖvning</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="IfsatsÖvning1.py" />
+    <Compile Include="IfsatsÖvning10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ifsatsÖvning11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ifsatsÖvning12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IfsatsÖvning9.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
